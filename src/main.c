@@ -1,5 +1,6 @@
 #include "nyse.h"
 
+// patrick
 pthread_t create_thread(pthread_t thread)
 {
     return thread;
