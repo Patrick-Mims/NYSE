@@ -1,6 +1,13 @@
 #ifndef LINKEDLIST_H
 #define LINKEDLIST_H
 
+typedef struct TICKER
+{
+    char symbol[5]; 
+    struct TICKER *next;
+
+} ticker_t;
+
 struct NODE
 {
     char symbol[5];
