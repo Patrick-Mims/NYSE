@@ -8,6 +8,7 @@ typedef struct TICKER
 
 } ticker_t;
 
+
 struct NODE
 {
     char symbol[5];
